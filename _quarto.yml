@@ -1,0 +1,29 @@
+project:
+  type: website
+  preview:
+    port: 3000
+    browser: false
+  output-dir: _docs
+
+format:
+  html:
+    theme: cosmo
+  ipynb: {}
+
+website:
+  sidebar:
+    style: floating
+    contents:
+      - auto: "/*.ipynb"
+      - section: Explanations
+        contents: explanations
+  favicon: favicon.png
+  navbar:
+    background: primary
+    search: true
+    collapse-below: lg
+    left:
+      - text: "Explanations"
+        href: explanations/docs.ipynb
+      - text: "Blog"
+        href: blog/index.qmd
