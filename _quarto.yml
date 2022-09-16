@@ -14,14 +14,10 @@ website:
   sidebar:
     style: floating
     contents:
-      - auto: "/*.ipynb"
       - section: Explanations
         contents: explanations
   favicon: favicon.png
   navbar:
-    background: primary
-    search: true
-    collapse-below: lg
     left:
       - text: "Explanations"
         href: explanations/docs.ipynb
