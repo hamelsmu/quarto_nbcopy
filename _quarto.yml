@@ -23,3 +23,8 @@ website:
         href: explanations/docs.ipynb
       - text: "Blog"
         href: blog/index.qmd
+
+shortcodes:
+  - colab.lua
+
+nb_copy_dir: https://github.com/hamelsmu/quarto_nbcopy/blob/main/
