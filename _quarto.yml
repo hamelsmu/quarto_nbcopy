@@ -8,7 +8,8 @@ project:
 format:
   html:
     theme: cosmo
-  ipynb: {}
+  ipynb:
+    output-ext: colab.ipynb
 
 website:
   sidebar:
@@ -27,4 +28,7 @@ website:
 shortcodes:
   - colab.lua
 
-nb_copy_dir: https://github.com/hamelsmu/quarto_nbcopy/blob/main/
+colab:
+  github-repo: hamelsmu/quarto_nbcopy
+  branch: main
+  exported-dir: colab/
