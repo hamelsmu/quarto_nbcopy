@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "explanations/docs.html",
+    "href": "explanations/docs.html",
+    "title": "Docs Website",
+    "section": "",
+    "text": "To read more about GitHub Actions, see their docs.\n\n\n!quarto publish -h\n\n\n  Usage:   quarto publish [provider] [path]\n  Version: 1.1.75                          \n                                           \n\n  Description:\n\n    Publish a document or project. Available providers include:\n                                                               \n     - Quarto Pub (quarto-pub)                                 \n     - GitHub Pages (gh-pages)                                 \n     - RStudio Connect (connect)                               \n                                                               \n     - Netlify (netlify)                                       \n    Accounts are configured interactively during publishing.   \n    Manage/remove accounts with: quarto publish accounts       \n\n  Options:\n\n    -h, --help              - Show this help.                                     \n    --id          <id>      - Identifier of content to publish                    \n    --server      <server>  - Server to publish to                                \n    --token       <token>   - Access token for publising provider                 \n    --no-render             - Do not render before publishing.                    \n    --no-prompt             - Do not prompt to confirm publishing destination     \n    --no-browser            - Do not open a browser to the site after publishing  \n    --log         <level>   - Path to log file                                    \n    --log-level   <level>   - Log level (info, warning, error, critical)          \n    --log-format  <format>  - Log format (plain, json-stream)                     \n    --quiet                 - Suppress console output.                            \n\n  Commands:\n\n    help  [command]  - Show this help or the help of a sub-command.\n\n  Examples:\n\n    Publish project (prompt for provider):  quarto publish                                                  \n    Publish document (prompt for provider): quarto publish document.qmd                                     \n    Publish project to Netlify:             quarto publish netlify                                          \n    Publish with explicit target:           quarto publish netlify --id DA36416-F950-4647-815C-01A24233E294 \n    Publish project to GitHub Pages:        quarto publish gh-pages                                         \n    Publish project to RStudio Connect:     quarto publish connect                                          \n    Publish with explicit credentials:      quarto publish connect --server example.com --token 01A24233E294\n    Publish without confirmation prompt:    quarto publish --no-prompt                                      \n    Publish without rendering:              quarto publish --no-render                                      \n    Publish without opening browser:        quarto publish --no-browser                                     \n    Manage/remove publishing accounts:      quarto publish accounts"
+  },
+  {
+    "objectID": "explanations/index.html",
+    "href": "explanations/index.html",
+    "title": "Explanations",
+    "section": "",
+    "text": "These explanations provide background information on how nbdev is designed and how it works. They are designed to help people who want to more deeply understand the nbdev system.\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nDocs Website\n\n\nHow nbdev renders a documentation website for your project.\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/posts/2022-07-28-nbdev2/index.html",
+    "href": "blog/posts/2022-07-28-nbdev2/index.html",
+    "title": "nbdev+Quarto: A new secret weapon for productivity",
+    "section": "",
+    "text": "Originally posted on the fast.ai blog"
+  },
+  {
+    "objectID": "blog/posts/2022-07-28-nbdev2/index.html#our-new-secret-weapon-for-productivity",
+    "href": "blog/posts/2022-07-28-nbdev2/index.html#our-new-secret-weapon-for-productivity",
+    "title": "nbdev+Quarto: A new secret weapon for productivity",
+    "section": "Our new secret weapon for productivity",
+    "text": "Our new secret weapon for productivity\nToday we’re excited to announce that we’ve teamed up with Quarto to give nbdev superpowers. nbdev offers Python programmers a common set of tools for using Jupyter notebooks to:"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "nbdev Blog",
+    "section": "",
+    "text": "nbdev+Quarto: A new secret weapon for productivity\n\n\n\n\n\nOur favorite tool for software engineering productivity–nbdev, now re-written with Quarto\n\n\n\n\n\n\nJul 28, 2022\n\n\nHamel Husain, Jeremy Howard\n\n\n\n\n\n\nNo matching items"
+  }
+]
